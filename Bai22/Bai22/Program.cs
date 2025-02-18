@@ -11,12 +11,16 @@ namespace Bai22
 
         static int TichCacUocSo(int n_118)
         {
-            int uoc_118 = 0;
+            int uoc_118 = 1;
             Console.Write("Cac uoc: ");
-            for (int i_118=0;i_118< n_118; i_118++)
+            for (int i_118 = 1;i_118 <= n_118; i_118++)
             {
-                Console.Write(i_118 + " ");
-                uoc_118 *= i_118;
+                if(n_118 % i_118 == 0)
+                {
+                    Console.Write(i_118 + " ");
+                    uoc_118 *= i_118;
+                }
+                
             }
             return uoc_118;
         }
