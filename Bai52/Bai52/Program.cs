@@ -8,7 +8,7 @@ namespace Bai52
 {
     internal class Program
     {
-
+        //Bài 52: Tìm chữ số nhỏ nhất của số nguyên dương n
         static int MinNguyenDuong(int n_118)
         {
             int min_118;
