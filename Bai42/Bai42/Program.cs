@@ -26,10 +26,24 @@ namespace Bai42
 
         static void Main(string[] args)
         {
+
             int n_118;
-            Console.WriteLine("Nhap n: ");
-            n_118 = int.Parse(Console.ReadLine());
-            MaxofNguyenDuong(n_118);
+            do
+            {
+                Console.WriteLine("Nhap n: ");
+                n_118 = int.Parse(Console.ReadLine());
+                if (n_118 <= 0)
+                {
+                    Console.WriteLine("Nhap so >0 !");
+
+                }
+                else
+                {
+                    MaxofNguyenDuong(n_118);
+                }
+            } while (n_118 <= 0);
+            
+            
         }
     }
 }
