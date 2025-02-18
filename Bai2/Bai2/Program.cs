@@ -30,6 +30,17 @@ namespace Bai2
             }
         }
 
+        static void TongChuoi2(int n_118)
+        {
+            int sum_118 = 0;
+            // Dùng vòng lặp để tính tổng bình phương
+            for (int i_118 = 1; i_118 <= n_118; i_118++)
+            {
+                sum_118 += i_118 * i_118;
+            }
+            Console.WriteLine("\nTong 1^2 + 2^2 + ... + {0}^2 = {1}", n_118, sum_118);
+        }
+
 
         static void Main(string[] args)
         {
@@ -40,6 +51,8 @@ namespace Bai2
 
             int TongBinhPhuong_118 = DeQuy(n_118);
             Console.WriteLine("\nTong 1^2 + 2^2 + ... + {0}^2 = {1}", n_118, TongBinhPhuong_118);
+
+            TongChuoi2(n_118);
 
         }
     }
