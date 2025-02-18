@@ -8,6 +8,14 @@ namespace Bai2
 {
     internal class Program
     {
+        static int DeQuy(int n_118)
+        {
+            if (n_118 == 1)
+                return 1;
+            return n_118 * n_118 + DeQuy(n_118 - 1);
+           
+        }
+
         static void TongChuoi(int n_118)
         {
             int sum_118 = (n_118 * (n_118 + 1) * (2 * n_118 + 1)) / 6;
@@ -29,6 +37,9 @@ namespace Bai2
             int n_118 = int.Parse(Console.ReadLine());
 
             TongChuoi(n_118);
+
+            int TongBinhPhuong_118 = DeQuy(n_118);
+            Console.WriteLine("\nTong 1^2 + 2^2 + ... + {0}^2 = {1}", n_118, TongBinhPhuong_118);
 
         }
     }
