@@ -9,22 +9,26 @@ namespace Bai52
     internal class Program
     {
 
-        static void MinNguyenDuong(int n_118)
+        static int MinNguyenDuong(int n_118)
         {
             int min_118;
             int i_118;
             min_118 = n_118 % 10;
             if(n_118 == 0)
                 min_118 = 0;
-            do
+            while (n_118 > 0)
             {
                 i_118 = n_118 % 10;
-                if (i_118 < min_118)
-                {
-                    Console.WriteLine("Chu so nho nhat cua so {0} la {1} ", n_118, i_118);
+                 if (i_118 < min_118)
+                   {
+                    min_118 = i_118;
+                  }
+                n_118 /= 10;
+            }
+            
 
-                }
-            } while (i_118 < min_118);
+            return min_118;     
+          
         }
 
         static void Main(string[] args)
@@ -41,7 +45,10 @@ namespace Bai52
                 }
                 else
                 {
-                    MinNguyenDuong(n_118);
+
+                    int min_118=MinNguyenDuong(n_118);
+                    Console.WriteLine("Chu so nho nhat la {0} ", min_118);
+                    break;
                 }
             } while (n_118 <= 0);
         }
