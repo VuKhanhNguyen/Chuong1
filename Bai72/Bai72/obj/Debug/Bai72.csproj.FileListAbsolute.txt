@@ -1,0 +1,7 @@
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\bin\Debug\Bai72.exe.config
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\bin\Debug\Bai72.exe
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\bin\Debug\Bai72.pdb
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\obj\Debug\Bai72.csproj.AssemblyReference.cache
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\obj\Debug\Bai72.csproj.CoreCompileInputs.cache
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\obj\Debug\Bai72.exe
+K:\Visual Studio 2022\Chuong1_Csharp\Chuong1\Bai72\Bai72\obj\Debug\Bai72.pdb

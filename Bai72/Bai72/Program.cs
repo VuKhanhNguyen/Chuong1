@@ -25,13 +25,13 @@ namespace Bai72
         static double tong(double x_118, int n_118)
         {
             
-            if (n_118 == 0)
+            if (n_118 == 1)
             {
-                return -1;
+                return -x_118;
             }
             else
             {
-                return (((-1) * Math.Pow(x_118, n_118) / giaithua(n_118)) + tong(x_118, n_118 - 1));
+                return ((Math.Pow(-1, n_118) * Math.Pow(x_118, n_118) / giaithua(n_118))) + tong(x_118, n_118 - 1);
             }
 
         }
@@ -40,21 +40,11 @@ namespace Bai72
         {
             int x_118;
             int n_118;
-            do
-            {
-                Console.Write("Nhap x: ");
-                x_118 = int.Parse(Console.ReadLine());
-                Console.Write("Nhap n: ");
-                n_118 = int.Parse(Console.ReadLine());
-                if (x_118 <= 0 || n_118 <= 0)
-                {
-                    Console.WriteLine("So nhap vao phai > 0 !");
-                }
-
-
-            } while (x_118 <= 0 || n_118 <= 0);
-
-
+            Console.Write("Nhap x: ");
+            x_118 = int.Parse(Console.ReadLine());
+            Console.Write("Nhap n: ");
+            n_118 = int.Parse(Console.ReadLine());
+ 
             double ketqua_118 = tong(x_118, n_118);
             Console.Write("Ket qua la: {0}", ketqua_118);
         }
