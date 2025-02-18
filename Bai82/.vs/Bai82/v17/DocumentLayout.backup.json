@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Visual Studio 2022\\Chuong1_Csharp\\Chuong1\\Bai82\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE65C065-7801-45C7-A924-75468418E094}|Bai82\\Bai82.csproj|k:\\visual studio 2022\\chuong1_csharp\\chuong1\\bai82\\bai82\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE65C065-7801-45C7-A924-75468418E094}|Bai82\\Bai82.csproj|solutionrelative:bai82\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Visual Studio 2022\\Chuong1_Csharp\\Chuong1\\Bai82\\Bai82\\Program.cs",
+              "RelativeDocumentMoniker": "Bai82\\Program.cs",
+              "ToolTip": "K:\\Visual Studio 2022\\Chuong1_Csharp\\Chuong1\\Bai82\\Bai82\\Program.cs",
+              "RelativeToolTip": "Bai82\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:54:51.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
