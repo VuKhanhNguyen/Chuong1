@@ -10,7 +10,7 @@ namespace Bai72
     internal class Program
     {
 
-        static int giaithua(int n_118)
+        static double giaithua(int n_118)
         {
             if (n_118==0)
             {
@@ -22,7 +22,19 @@ namespace Bai72
             }
         }
 
+        static double tong(double x_118, int n_118)
+        {
+            
+            if (n_118 == 0)
+            {
+                return -1;
+            }
+            else
+            {
+                return (((-1) * Math.Pow(x_118, n_118) / giaithua(n_118)) + tong(x_118, n_118 - 1));
+            }
 
+        }
 
         static void Main(string[] args)
         {
