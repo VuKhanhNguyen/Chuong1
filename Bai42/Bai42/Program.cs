@@ -8,8 +8,25 @@ namespace Bai42
 {
     internal class Program
     {
+
+        static void MaxofNguyenDuong(int n_118)
+        {
+            int k_118 = 0;
+            int S_118 = 0;
+            while(k_118 < n_118)
+            {
+                k_118++;
+                S_118 += k_118;
+
+            }
+            Console.WriteLine("Gia tri k lon nhat de S(k) < n la: {0}", k_118);
+
+        }
+
+
         static void Main(string[] args)
         {
+
         }
     }
 }
