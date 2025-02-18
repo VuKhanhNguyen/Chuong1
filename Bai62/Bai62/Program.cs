@@ -34,14 +34,23 @@ namespace Bai62
         {
             int a_118;
             int b_118;
+            do
+            {
+                Console.Write("Nhap a: ");
+                a_118 = int.Parse(Console.ReadLine());
+                Console.Write("Nhap b: ");
+                b_118 = int.Parse(Console.ReadLine());
+                if(a_118 <= 0 || b_118 <= 0)
+                {
+                    Console.WriteLine("So nhap vao phai > 0 !");
+                }
+               
 
-            Console.Write("Nhap a: ");
-            a_118 = int.Parse(Console.ReadLine());
-            Console.Write("Nhap b: ");
-            b_118 = int.Parse(Console.ReadLine());
-
-            int ketqua = ucln(a_118, b_118);
-            Console.Write("UCLN cua {0} voi {1} la {2}", a_118, b_118, ketqua);
+            } while (a_118 <= 0 || b_118 <= 0);
+            
+            
+            int ketqua_118 = ucln(a_118, b_118);
+            Console.Write("UCLN cua {0} voi {1} la {2}", a_118, b_118, ketqua_118);
 
         }
     }
