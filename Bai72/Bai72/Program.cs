@@ -38,7 +38,25 @@ namespace Bai72
 
         static void Main(string[] args)
         {
+            int x_118;
+            int n_118;
+            do
+            {
+                Console.Write("Nhap x: ");
+                x_118 = int.Parse(Console.ReadLine());
+                Console.Write("Nhap n: ");
+                n_118 = int.Parse(Console.ReadLine());
+                if (x_118 <= 0 || n_118 <= 0)
+                {
+                    Console.WriteLine("So nhap vao phai > 0 !");
+                }
 
+
+            } while (x_118 <= 0 || n_118 <= 0);
+
+
+            double ketqua_118 = tong(x_118, n_118);
+            Console.Write("Ket qua la: {0}", ketqua_118);
         }
     }
 }
