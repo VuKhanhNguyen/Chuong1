@@ -8,7 +8,7 @@ namespace Bai22
 {
     internal class Program
     {
-
+        //Bài 22:Tính tích tất cả các “ước số” của số nguyên dương n
         static int TichCacUocSo(int n_118)
         {
             int uoc_118 = 1;
@@ -19,8 +19,7 @@ namespace Bai22
                 {
                     Console.Write(i_118 + " ");
                     uoc_118 *= i_118;
-                }
-                
+                }   
             }
             return uoc_118;
         }
@@ -57,19 +56,12 @@ namespace Bai22
                 if(n_118 <= 0)
                 {
                     Console.WriteLine("\nNhap n phai lon hon 0, moi nhap lai ! ");
-
                 }
-
             }while (n_118<=0);
-
             int t_118 = TichCacUocSo(n_118);
-
             Console.WriteLine("\nTich cac uoc cua {0} la: {1}", n_118, t_118);
-
             int t2_188 = TichCacUocSo2(n_118);
-
             Console.WriteLine("Tich cac uoc cua {0} la: {1}", n_118, t2_188);
-
             Console.ReadKey();
         }
     }
