@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bai12
 {
+    //Bài 12: Tính S(n) = x + x^2 + x^3 + … + x^n
     internal class Program
     {
         //static float TinhTongChuoi(float x_118 , int n_118)
