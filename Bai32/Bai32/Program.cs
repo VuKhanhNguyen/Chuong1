@@ -24,6 +24,26 @@ namespace Bai32
 
         static void Main(string[] args)
         {
+            int n_118;
+
+            do
+            {
+                
+                Console.Write("\nNhap n: ");
+                n_118 = int.Parse(Console.ReadLine());
+                if (n_118 <= 0)
+                {
+                    Console.WriteLine("Nhap so lon hon 0!! ");
+                    //Console.Write("\nNhap n: ");
+                    //n_118 = int.Parse(Console.ReadLine());
+                }
+                else
+                {
+                    LaSoChinhPhuong(n_118);
+                }
+
+            } while (n_118 <= 0);
+
 
         }
     }
