@@ -13,7 +13,7 @@ namespace Bai42
         {
             int k_118 = 0;
             int S_118 = 0;
-            while(k_118 < n_118)
+            while(S_118 + k_118 + 1 < n_118)
             {
                 k_118++;
                 S_118 += k_118;
