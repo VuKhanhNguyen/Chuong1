@@ -25,6 +25,15 @@ namespace Bai92
         
         static void Main(string[] args)
         {
+            int a_118;
+            int b_118;
+            Console.Write("Nhap a: ");
+            a_118 = int.Parse(Console.ReadLine());
+            Console.Write("Nhap b: ");
+            b_118 = int.Parse(Console.ReadLine());
+
+            int ketqua_118 = UCLN(a_118, b_118);
+            Console.Write("UCLN cua {0} voi {1} la {2}", a_118, b_118, ketqua_118);
         }
     }
 }
