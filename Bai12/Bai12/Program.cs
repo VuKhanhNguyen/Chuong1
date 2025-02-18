@@ -25,7 +25,9 @@ namespace Bai12
 
         static float TongChuoiDeQuy(float x_118, int n_118)
         {
-                return (float)Math.Pow(x_118, n_118) + TongChuoiDeQuy(x_118, n_118 - 1);  
+            if (n_118 == 0)
+                return 0;
+            return (float)Math.Pow(x_118, n_118) + TongChuoiDeQuy(x_118, n_118 - 1);  
         }
 
 
