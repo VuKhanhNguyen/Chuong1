@@ -8,8 +8,23 @@ namespace Bai32
 {
     internal class Program
     {
+
+        static void LaSoChinhPhuong(int n_118)
+        {
+            int scp_118 = (int)Math.Sqrt(n_118);
+            if (scp_118 * scp_118 == n_118)
+            {
+                Console.WriteLine("{0} la so chinh phuong", n_118);
+            }
+            else
+            {
+                Console.WriteLine("{0} khong phai la so chinh phuong", n_118);
+            }
+        }
+
         static void Main(string[] args)
         {
+
         }
     }
 }
