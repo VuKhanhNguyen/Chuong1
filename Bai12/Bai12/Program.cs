@@ -8,20 +8,26 @@ namespace Bai12
 {
     internal class Program
     {
-        static float TinhTongChuoi(float x_118 , int n_118)
+        //static float TinhTongChuoi(float x_118 , int n_118)
+        //{
+        //    int i_118 = 1;
+        //    float trc_118 = 1;
+        //    float s_118 = 0;
+        //    while (i_118 <= n_118)
+        //    {
+        //        trc_118 *= x_118;
+        //        s_118 += trc_118;
+        //        i_118++;
+        //    }
+        //    return s_118;
+        //   //Console.WriteLine("Tong la: {0}", s);
+        //}
+
+        static float TongChuoiDeQuy(float x_118, int n_118)
         {
-            int i_118=1;
-            float trc_118 = 1;
-            float s_118 = 0;
-            while (i_118 <= n_118)
-            {
-                trc_118 *= x_118;
-                s_118 += trc_118;
-                i_118++;
-            }
-            return s_118;
-           //Console.WriteLine("Tong la: {0}", s);
-        } 
+                return (float)Math.Pow(x_118, n_118) + TongChuoiDeQuy(x_118, n_118 - 1);  
+        }
+
 
         static void Main(string[] args)
         {
@@ -31,9 +37,23 @@ namespace Bai12
             Console.Write("\nNhap n: ");
             int n_118 = int.Parse(Console.ReadLine());
 
-            float total = TinhTongChuoi(x_118, n_118);
+            //float total_118 = TinhTongChuoi(x_118, n_118);
 
-            Console.WriteLine("Tong la: {0}", total);
+            try
+            {
+                float total_118 = TongChuoiDeQuy(x_118, n_118);
+                Console.WriteLine("Tong la: {0}", total_118);
+            }
+
+            catch (StackOverflowException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
         }
     }
 }
