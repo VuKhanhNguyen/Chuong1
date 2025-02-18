@@ -8,6 +8,7 @@ namespace Bai2
 {
     internal class Program
     {
+        //Bài 2: Tính S(n) = 1^2 + 2^2 + … + n^2
         static int DeQuy(int n_118)
         {
             if (n_118 == 1)
