@@ -8,7 +8,7 @@ namespace Bai32
 {
     internal class Program
     {
-
+        //Bài 32: Cho số nguyên dương n. Kiểm tra xem n có phải là số chính phương hay không
         static void LaSoChinhPhuong(int n_118)
         {
             int scp_118 = (int)Math.Sqrt(n_118);
