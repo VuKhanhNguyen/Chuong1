@@ -8,8 +8,28 @@ namespace Bai52
 {
     internal class Program
     {
+
+        static void MinNguyenDuong(int n_118)
+        {
+            int min_118;
+            int i_118;
+            min_118 = n_118 % 10;
+            if(n_118 == 0)
+                min_118 = 0;
+            do
+            {
+                i_118 = n_118 % 10;
+                if (i_118 < min_118)
+                {
+                    Console.WriteLine("Chu so nho nhat cua so {0} la {1} ", n_118, i_118);
+
+                }
+            } while (i_118 < min_118);
+        }
+
         static void Main(string[] args)
         {
+
         }
     }
 }
